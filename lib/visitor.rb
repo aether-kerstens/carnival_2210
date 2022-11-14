@@ -23,4 +23,8 @@ class Visitor
       true
     end
   end
+
+  def ticket_fee(ticket)
+    @spending_money -= ticket
+  end
 end
