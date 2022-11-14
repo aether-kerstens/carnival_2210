@@ -12,9 +12,9 @@ RSpec.describe Visitor do
     expect(visitor1.name).to eq('Bruce')
   end
 
-  it 'has a hieght' do
+  it 'has a height' do
     visitor1 = Visitor.new('Bruce', 54, '$10')
-    expect(visitor1.hieght).to eq(54)
+    expect(visitor1.height).to eq(54)
   end
 
   it 'has spending money' do
